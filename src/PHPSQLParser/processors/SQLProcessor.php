@@ -141,6 +141,7 @@ class SQLProcessor extends SQLChunkProcessor {
                 }
                 break;
 
+	     case 'SKIP':
             case 'LIMIT':
             case 'PLUGIN':
             // no separate section
